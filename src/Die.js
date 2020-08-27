@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Die.css";
 
 class Die extends Component {
-  contructor (props) {
+  constructor (props) {
     super(props);
     this.handleClick = this.handleClick.bind(this);
   }
